@@ -107,16 +107,19 @@ p {
 .work-heading h1 {
   font-size: 60px;
 }
-.work-page-container{
-    padding:120px 60px;
+.work-page-container {
+  padding: 120px 60px;
 }
-.work-page-container img{
-    border-radius:10px;
+.work-page-container img {
+  border-radius: 10px;
 }
 
 footer .work {
   background: var(--secondary-color);
   padding: 60px 30px;
+}
+.logo {
+  background: var(--third-color);
 }
 
 footer .email-link {
@@ -141,4 +144,27 @@ footer .social-media-link a {
 footer .social-media-link a:hover {
   background: var(--third-color);
   color: var(--secondary-color);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .content {
+    text-align: cenetr;
+    padding: 0;
+    display: block;
+  }
+  .btn-branding,
+  .button {
+    display: block;
+    text-align: center;
+    margin: 20px 20px;
+  }
 }
