@@ -43,6 +43,11 @@ h2 {
   font-size: 54px;
   font-family: var(--h-font-family);
 }
+h3{
+    font-family:var(--h-font-family);
+    text-align:center;
+
+}
 
 p {
   font-weight: normal;
@@ -87,7 +92,8 @@ font-weight:normal;
     padding:15px 20px;
     border:2px solid var(--third-color);
     text-decoration:none;
-    color:var(--primary-color)
+    color:var(--primary-color);
+    border-radius:4px;
 
 }
 .button:hover{
@@ -109,6 +115,10 @@ footer .email-link{
 }
 footer .email-link:hover{
     color:var(--primary-color);
+}
+.work-page-container a{
+    display:block;
+    text-align:center;
 }
 footer .social-media-link a{
     
